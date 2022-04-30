@@ -1,1 +1,58 @@
-
+body {
+    margin: 0;
+    padding: 0;
+}
+.viPanel {
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid #000000;
+}
+.viPanel__block-inner {
+    margin: 10px 40px;
+}
+.viPanel__block-title {
+    font-weight: 700;
+    text-align: center;
+}
+.viPanel__block-row {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0;
+}
+.viPanel__block-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin: 0 2.5px;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+.viPanel__block-button:hover {
+    background: #f2f2f2
+}
+.size-18 {
+    font-size: 18px !important;
+}
+.size-22 {
+    font-size: 22px !important;
+}
+.size-26 {
+    font-size: 26px !important;
+}
+.color-white {
+    background: #ffffff !important;
+}
+.color-black {
+    background: #000000 !important;
+}
+.color-blue {
+    background: #9dd1fe !important;
+}
+.color-brown {
+    background: #3b2716 !important;
+}

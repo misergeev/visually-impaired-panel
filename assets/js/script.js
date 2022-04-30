@@ -1,6 +1,11 @@
 if (!window.jQuery) {
-    document.write('<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>')
-    // console.log('podkl');
+    alert('Для этого плагина необходимо подключение библиотеки jquery')
 } else {
-    // console.log('nepodkl');
+    plugin();
+}
+
+function plugin() {
+    $(document).ready(function() {
+        
+    });
 }
