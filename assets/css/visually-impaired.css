@@ -1,0 +1,78 @@
+/* Whiteblack */
+
+body.whiteblack {
+    background: #ffffff !important;
+    border-color: #000000 !important;
+    color: #000000 !important;
+}
+body.whiteblack * {
+    background: #ffffff !important;
+    border-color: #000000 !important;
+    color: #000000 !important;
+}
+
+/* Blackwhite */
+
+body.blackwhite {
+    background: #000000 !important;
+    border-color: #ffffff !important;
+    color: #ffffff !important;
+}
+body.blackwhite * {
+    background: #000000 !important;
+    border-color: #ffffff !important;
+    color: #ffffff !important;
+}
+
+/* Blue */
+
+body.blue {
+    background: #9dd1fe !important;
+    border-color: #063462 !important;
+    color: #063462 !important;
+}
+body.blue * {
+    background: #9dd1fe !important;
+    border-color: #063462 !important;
+    color: #063462 !important;
+}
+
+/* Brown */
+
+body.brown {
+    background: #3b2716 !important;
+    border-color: #a9e44d !important;
+    color: #a9e44d !important;
+}
+body.brown * {
+    background: #3b2716 !important;
+    border-color: #a9e44d !important;
+    color: #a9e44d !important;
+}
+
+/* Font size 18px */
+
+body.size18 {
+    font-size: 18px;
+}
+body.size18 * {
+    font-size: 18px;
+}
+
+/* Font size 22px */
+
+body.size22 {
+    font-size: 22px;
+}
+body.size22 * {
+    font-size: 22px;
+}
+
+/* Font size 26px */
+
+body.size26 {
+    font-size: 26px;
+}
+body.size26 * {
+    font-size: 26px;
+}

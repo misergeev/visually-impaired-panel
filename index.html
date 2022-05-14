@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <!-- Styles -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- JQuery -->
-    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/panel.css">
+    <link rel="stylesheet" href="./assets/css/visually-impaired.css">
 </head>
 <body>
     <div class="viPanel">
@@ -18,15 +18,9 @@
                     Размер шрифта
                 </div>
                 <div class="viPanel__block-row">
-                    <div class="viPanel__block-button size-18">
-                        А
-                    </div>
-                    <div class="viPanel__block-button size-22">
-                        А
-                    </div>
-                    <div class="viPanel__block-button size-26">
-                        А
-                    </div>
+                    <div class="viPanel__block-button js-size-button size-18" data-size="size18">А</div>
+                    <div class="viPanel__block-button js-size-button size-22" data-size="size22">А</div>
+                    <div class="viPanel__block-button js-size-button size-26" data-size="size26">А</div>
                 </div>
             </div>
         </div>
@@ -36,19 +30,16 @@
                     Цвет сайта
                 </div>
                 <div class="viPanel__block-row">
-                    <div class="viPanel__block-button color-white">
-                    </div>
-                    <div class="viPanel__block-button color-black">
-                    </div>
-                    <div class="viPanel__block-button color-blue">
-                    </div>
-                    <div class="viPanel__block-button color-brown">
-                    </div>
+                    <div class="viPanel__block-button js-color-button color-whiteblack" data-color="whiteblack">А</div>
+                    <div class="viPanel__block-button js-color-button color-blackwhite" data-color="blackwhite">А</div>
+                    <div class="viPanel__block-button js-color-button color-blue" data-color="blue">А</div>
+                    <div class="viPanel__block-button js-color-button color-brown" data-color="brown">А</div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Scripts -->
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>

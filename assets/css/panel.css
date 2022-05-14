@@ -9,9 +9,12 @@ body {
     max-width: 900px;
     margin: 0 auto;
     border: 1px solid #000000;
+    border-top: none;
+    border-radius: 0 0 6px 6px;
+    overflow: hidden;
 }
 .viPanel__block-inner {
-    margin: 10px 40px;
+    margin: 10px 30px 13px 30px;
 }
 .viPanel__block-title {
     font-weight: 700;
@@ -26,33 +29,43 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30px;
-    height: 30px;
+    width: 33px;
+    height: 33px;
     margin: 0 2.5px;
     border: 1px solid #000000;
     cursor: pointer;
+    border-radius: 4px;
+    transition: transform 0.1s ease 0s;
 }
 .viPanel__block-button:hover {
-    background: #f2f2f2
+    transform: scale(1.15);
 }
-.size-18 {
+.viPanel .size-18 {
     font-size: 18px !important;
 }
-.size-22 {
+.viPanel .size-22 {
     font-size: 22px !important;
 }
-.size-26 {
+.viPanel .size-26 {
     font-size: 26px !important;
 }
-.color-white {
+.viPanel .color-whiteblack {
     background: #ffffff !important;
+    color: #000000 !important;
+    border-color: #000000 !important;
 }
-.color-black {
+.viPanel .color-blackwhite {
     background: #000000 !important;
+    color: #ffffff !important;
+    border-color: #ffffff !important;
 }
-.color-blue {
+.viPanel .color-blue {
     background: #9dd1fe !important;
+    color: #063462 !important;
+    border-color: #063462 !important;
 }
-.color-brown {
+.viPanel .color-brown {
     background: #3b2716 !important;
+    color: #a9e44d !important;
+    border-color: #a9e44d !important;
 }
